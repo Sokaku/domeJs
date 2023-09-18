@@ -16,8 +16,8 @@ const sketch = (context, width, height) => {
 
   for (let i = 0; i < num; i++) {
    
-    x = random.range(0, width);
-    y = random.range(0, height);
+    x = random.range(200, width);
+    y = random.range(100, height);
     w = random.range(200, 600);
     h = random.range(40, 200);
 
